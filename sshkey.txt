@@ -1,0 +1,25 @@
+Asus@DESKTOP-V303J2R MINGW64 ~/Desktop/newgit (master)
+$ ssh-keygen
+  Just Press->Enter->Enter
+
+Asus@DESKTOP-V303J2R MINGW64 ~/Desktop/newgit (master)
+$ eval $(ssh-agent -s)
+Agent pid 2008
+
+Asus@DESKTOP-V303J2R MINGW64 ~/Desktop/newgit (master)
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/Asus/.ssh/id_rsa (Asus@DESKTOP-V303J2R)
+
+Asus@DESKTOP-V303J2R MINGW64 ~/Desktop/newgit (master)
+$ git remote add origin git@github.com:zahidloshan/sshkey.git
+
+Asus@DESKTOP-V303J2R MINGW64 ~/Desktop/newgit (master)
+$ git branch -M main
+
+Asus@DESKTOP-V303J2R MINGW64 ~/Desktop/newgit (main)
+$ git push -u origin main
+
+
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+yes
+
